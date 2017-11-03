@@ -6,24 +6,26 @@ h1, h2, article {
   font-family: 'Nunito', sans-serif;
   color: #000;
 }
+
 body {
   background-color: #40B3ED;
   text-align: center;
   font-family: 'Indie Flower', cursive;
   color: #000;
-
 }
+
 div {
   margin-left: 75px;
   margin-right: 75px;
 }
 
-article{
+article {
   color:#FFF;
   background: #99ccff;
   margin: 35px;
   width: auto;
 }
+
 p {
   text-align: center;
 }
@@ -32,7 +34,6 @@ p {
   font-size: 120%;
   max-width: 700px;
   margin: auto;
-
 }
 
 #slide {
@@ -46,8 +47,8 @@ p {
 }
 
 @media (max-width: 800px) {
-	#slide {
-		width: 100%;
-	}
-	/* the height for mobile is handled by the jQuery */
+  #slide {
+    width: 100%;
+  }
+  /* the height for mobile is handled by the jQuery */
 }

@@ -4,7 +4,7 @@ $(document).ready(function(){  // do not delete
 // this part is to resize the "viewer" div for mobile only
 // it works for images with a 4:3 aspect ratio - specifically 800 x 600
 var viewerWidth = $( '#slide' ).width();
-if (viewerWidth < 1280) {
+if (viewerWidth < 800) {
 	$( '#slide' ).height( viewerWidth * 0.75 );
 }
 
@@ -12,7 +12,7 @@ if (viewerWidth < 1280) {
 // resizes the browser window
 $( window ).resize(function() {
 	var viewerWidth = $( '#slide' ).width();
-	if (viewerWidth < 1280) {
+	if (viewerWidth < 800) {
 		$( '#slide' ).height( viewerWidth * 0.75 );
 	}
 });
